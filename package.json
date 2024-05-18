@@ -1,13 +1,13 @@
 {
-  "name": "eslint-config-cimpress-atsquad",
+  "name": "@authress/eslint-config",
   "version": "1.0.2",
-  "description": "ESLint config from the Cimpress AT Squad",
+  "description": "ESLint config from Authress.",
   "main": "lib/index.js",
-  "author": "Cimpress AT Squad <atsquad@cimpress.com>",
+  "author": "Authress Developers <developers@authress.io>",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cimpress-MCP/eslint-config-cimpress-atsquad.git"
+    "url": "git+https://github.com/Authress-Engineering/eslint-config-authress.git"
   },
   "dependencies": {
     "eslint": ">=5.0.0",
@@ -16,7 +16,10 @@
     "eslint-plugin-promise": ">=4.0.0"
   },
   "devDependencies": {
-    "ci-build-tools": "1.0.13",
-    "commander": "2.14.1"
+    "commander": "2.14.1",
+    "fs-extra": "^11.2.0"
+  },
+  "engines": {
+    "node": ">= 16.15.0"
   }
 }
