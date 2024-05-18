@@ -18,7 +18,7 @@ A set of opinionated ESLint rules from the Authress Engineering team
 
 ```javascript
 {
-  "extends": "authress"
+  "extends": "@authress/eslint-config"
 }
 ```
 
