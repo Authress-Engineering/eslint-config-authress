@@ -3,6 +3,8 @@
  */
 import commander from 'commander';
 import fs from 'fs-extra';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 // const githubActionsRunner = require('ci-build-tools')(process.env.GITHUB_TOKEN);
 function getVersion() {

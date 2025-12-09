@@ -1,11 +1,14 @@
 {
   "name": "@authress/eslint-config",
-  "version": "1.0.2",
+  "version": "0.0.0",
   "description": "ESLint config from Authress.",
   "type": "module",
   "main": "lib/index.js",
   "author": "Authress Developers <developers@authress.io>",
   "license": "Apache-2.0",
+  "scripts": {
+    "build": "node make.js build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Authress-Engineering/eslint-config-authress.git"
