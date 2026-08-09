@@ -4,6 +4,10 @@
   "description": "ESLint config from Authress.",
   "type": "module",
   "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./typescript": "./lib/typescript.js"
+  },
   "author": "Authress Developers <developers@authress.io>",
   "license": "Apache-2.0",
   "scripts": {
@@ -19,10 +23,23 @@
     "eslint-plugin-n": ">=17.23.1",
     "globals": "^16.4.0"
   },
+  "peerDependencies": {
+    "typescript": ">=5.0.0",
+    "typescript-eslint": ">=8.0.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    },
+    "typescript-eslint": {
+      "optional": true
+    }
+  },
   "devDependencies": {
     "commander": "2.14.1",
     "fs-extra": "^11.2.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.66.0"
   },
   "engines": {
     "node": ">= 20"
